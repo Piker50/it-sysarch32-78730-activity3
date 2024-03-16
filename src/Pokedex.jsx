@@ -30,11 +30,8 @@ function Pokedex() {
 
     <ul className="container-pokedex">
         {pokemons.map(el=>{
-            const pokemon = {...el, pokeName: el.name[lang]}
-            return <Pokemon key={el.id} {...pokemon}/>
-
-        }
-        )}
+            const pokemon = {...el, pokemonName: el.name[lang]}
+            return <Pokemon key={el.id} {...pokemon}/>})}
     </ul>
 
     </main>

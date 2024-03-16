@@ -64,7 +64,7 @@
   object-fit: cover;
 }
 
-.pokeTypes{
+.container-pokemon-type {
   display: flex;
   align-content: center;
   align-items: center;
@@ -76,7 +76,7 @@
   margin: 10px 0;
 }
 
-.pokeTypes li {
+.container-pokemon-type li {
   background: #333;
   color:#fff;
   border-radius: 20px;
@@ -93,7 +93,7 @@
   width: 200px;
 }
 
-.col1 {
+.container-column1 {
   display: flex;
   flex-flow: column;
   align-items: start;
@@ -101,7 +101,7 @@
   margin: 0;
 }
 
-.col2 {
+.container-column2 {
   display: flex;
   flex-flow: column;
   align-items: start;
